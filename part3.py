@@ -18,4 +18,10 @@ Enter the height: 3
 
 """
 
-#write your code here 
+num1 = int(input("Enter the base: "))
+num2 = int(input("Enter the height: "))
+
+for x in range (1,num2 +1):
+  for y in range (1,num1 +1):
+    print ('*', end = "")
+  print ()

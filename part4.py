@@ -39,4 +39,12 @@ fizz
 
 """
 
-# write your code here 
+number = int(input("Enter a number: ")) 
+
+for i in range (1,number +1):
+  print (i)
+  if i % 3 == (0):
+    print ("fizz")
+  if i % 5 == 0:
+    print ("buzz")
+  
